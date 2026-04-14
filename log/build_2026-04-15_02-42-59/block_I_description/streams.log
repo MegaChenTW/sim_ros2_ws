@@ -1,0 +1,28 @@
+[0.229s] Invoking command in '/home/mega/JetRover/sim/ros2_ws/build/block_I_description': /usr/bin/cmake --build /home/mega/JetRover/sim/ros2_ws/build/block_I_description -- -j12 -l12
+[0.670s] Invoked command in '/home/mega/JetRover/sim/ros2_ws/build/block_I_description' returned '0': /usr/bin/cmake --build /home/mega/JetRover/sim/ros2_ws/build/block_I_description -- -j12 -l12
+[0.672s] Invoking command in '/home/mega/JetRover/sim/ros2_ws/build/block_I_description': /usr/bin/cmake --install /home/mega/JetRover/sim/ros2_ws/build/block_I_description
+[0.691s] -- Install configuration: ""
+[0.692s] -- Up-to-date: /home/mega/JetRover/sim/ros2_ws/install/block_I_description/share/block_I_description/meshes
+[0.692s] -- Up-to-date: /home/mega/JetRover/sim/ros2_ws/install/block_I_description/share/block_I_description/meshes/base_link.stl
+[0.692s] -- Up-to-date: /home/mega/JetRover/sim/ros2_ws/install/block_I_description/share/block_I_description/urdf
+[0.692s] -- Up-to-date: /home/mega/JetRover/sim/ros2_ws/install/block_I_description/share/block_I_description/urdf/materials.xacro
+[0.692s] -- Up-to-date: /home/mega/JetRover/sim/ros2_ws/install/block_I_description/share/block_I_description/urdf/block_I.gazebo
+[0.692s] -- Up-to-date: /home/mega/JetRover/sim/ros2_ws/install/block_I_description/share/block_I_description/urdf/block_I.xacro
+[0.692s] -- Up-to-date: /home/mega/JetRover/sim/ros2_ws/install/block_I_description/share/block_I_description/urdf/block_I.trans
+[0.692s] -- Up-to-date: /home/mega/JetRover/sim/ros2_ws/install/block_I_description/share/block_I_description/package.xml
+[0.693s] -- Up-to-date: /home/mega/JetRover/sim/ros2_ws/install/block_I_description/share/ament_index/resource_index/package_run_dependencies/block_I_description
+[0.693s] -- Up-to-date: /home/mega/JetRover/sim/ros2_ws/install/block_I_description/share/ament_index/resource_index/parent_prefix_path/block_I_description
+[0.694s] -- Up-to-date: /home/mega/JetRover/sim/ros2_ws/install/block_I_description/share/block_I_description/environment/ament_prefix_path.sh
+[0.694s] -- Up-to-date: /home/mega/JetRover/sim/ros2_ws/install/block_I_description/share/block_I_description/environment/ament_prefix_path.dsv
+[0.694s] -- Up-to-date: /home/mega/JetRover/sim/ros2_ws/install/block_I_description/share/block_I_description/environment/path.sh
+[0.694s] -- Up-to-date: /home/mega/JetRover/sim/ros2_ws/install/block_I_description/share/block_I_description/environment/path.dsv
+[0.694s] -- Up-to-date: /home/mega/JetRover/sim/ros2_ws/install/block_I_description/share/block_I_description/local_setup.bash
+[0.694s] -- Up-to-date: /home/mega/JetRover/sim/ros2_ws/install/block_I_description/share/block_I_description/local_setup.sh
+[0.694s] -- Up-to-date: /home/mega/JetRover/sim/ros2_ws/install/block_I_description/share/block_I_description/local_setup.zsh
+[0.695s] -- Up-to-date: /home/mega/JetRover/sim/ros2_ws/install/block_I_description/share/block_I_description/local_setup.dsv
+[0.695s] -- Up-to-date: /home/mega/JetRover/sim/ros2_ws/install/block_I_description/share/block_I_description/package.dsv
+[0.695s] -- Up-to-date: /home/mega/JetRover/sim/ros2_ws/install/block_I_description/share/ament_index/resource_index/packages/block_I_description
+[0.695s] -- Up-to-date: /home/mega/JetRover/sim/ros2_ws/install/block_I_description/share/block_I_description/cmake/block_I_descriptionConfig.cmake
+[0.695s] -- Up-to-date: /home/mega/JetRover/sim/ros2_ws/install/block_I_description/share/block_I_description/cmake/block_I_descriptionConfig-version.cmake
+[0.696s] -- Up-to-date: /home/mega/JetRover/sim/ros2_ws/install/block_I_description/share/block_I_description/package.xml
+[0.737s] Invoked command in '/home/mega/JetRover/sim/ros2_ws/build/block_I_description' returned '0': /usr/bin/cmake --install /home/mega/JetRover/sim/ros2_ws/build/block_I_description

@@ -1,0 +1,30 @@
+running develop
+Removing /home/mega/JetRover/sim/ros2_ws/install/my_custom_sim/lib/python3.10/site-packages/my-custom-sim.egg-link (link to .)
+running egg_info
+writing ../../build/my_custom_sim/my_custom_sim.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_custom_sim/my_custom_sim.egg-info/dependency_links.txt
+writing entry points to ../../build/my_custom_sim/my_custom_sim.egg-info/entry_points.txt
+writing requirements to ../../build/my_custom_sim/my_custom_sim.egg-info/requires.txt
+writing top-level names to ../../build/my_custom_sim/my_custom_sim.egg-info/top_level.txt
+reading manifest file '../../build/my_custom_sim/my_custom_sim.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_custom_sim/my_custom_sim.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mega/JetRover/sim/ros2_ws/build/my_custom_sim/build
+creating /home/mega/JetRover/sim/ros2_ws/build/my_custom_sim/build/lib
+creating /home/mega/JetRover/sim/ros2_ws/build/my_custom_sim/build/lib/my_custom_sim
+copying my_custom_sim/__init__.py -> /home/mega/JetRover/sim/ros2_ws/build/my_custom_sim/build/lib/my_custom_sim
+running install
+running install_lib
+creating /home/mega/JetRover/sim/ros2_ws/install/my_custom_sim/lib/python3.10/site-packages/my_custom_sim
+copying /home/mega/JetRover/sim/ros2_ws/build/my_custom_sim/build/lib/my_custom_sim/__init__.py -> /home/mega/JetRover/sim/ros2_ws/install/my_custom_sim/lib/python3.10/site-packages/my_custom_sim
+byte-compiling /home/mega/JetRover/sim/ros2_ws/install/my_custom_sim/lib/python3.10/site-packages/my_custom_sim/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/my_custom_sim -> /home/mega/JetRover/sim/ros2_ws/install/my_custom_sim/share/ament_index/resource_index/packages
+copying package.xml -> /home/mega/JetRover/sim/ros2_ws/install/my_custom_sim/share/my_custom_sim
+copying launch/start_my_sim.launch.py -> /home/mega/JetRover/sim/ros2_ws/install/my_custom_sim/share/my_custom_sim/launch
+copying worlds/empty_light.world -> /home/mega/JetRover/sim/ros2_ws/install/my_custom_sim/share/my_custom_sim/worlds
+running install_egg_info
+Copying ../../build/my_custom_sim/my_custom_sim.egg-info to /home/mega/JetRover/sim/ros2_ws/install/my_custom_sim/lib/python3.10/site-packages/my_custom_sim-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/mega/JetRover/sim/ros2_ws/build/my_custom_sim/install.log'

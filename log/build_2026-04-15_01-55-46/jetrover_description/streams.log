@@ -1,0 +1,98 @@
+[1.206s] Invoking command in '/home/mega/JetRover/sim/ros2_ws/build/jetrover_description': PYTHONPATH=/home/mega/JetRover/sim/ros2_ws/build/jetrover_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mega/JetRover/sim/ros2_ws/install/jetrover_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/mega/JetRover/sim/ros2_ws/build/jetrover_description/build
+[1.468s] running develop
+[1.626s] Removing /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/lib/python3.10/site-packages/jetrover-description.egg-link (link to .)
+[1.665s] Invoked command in '/home/mega/JetRover/sim/ros2_ws/build/jetrover_description' returned '0': PYTHONPATH=/home/mega/JetRover/sim/ros2_ws/build/jetrover_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mega/JetRover/sim/ros2_ws/install/jetrover_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/mega/JetRover/sim/ros2_ws/build/jetrover_description/build
+[1.667s] Invoking command in '/home/mega/JetRover/sim/ros2_ws/src/jetrover_description': PYTHONPATH=/home/mega/JetRover/sim/ros2_ws/build/jetrover_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mega/JetRover/sim/ros2_ws/install/jetrover_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/jetrover_description build --build-base /home/mega/JetRover/sim/ros2_ws/build/jetrover_description/build install --record /home/mega/JetRover/sim/ros2_ws/build/jetrover_description/install.log --single-version-externally-managed install_data --force
+[1.885s] running egg_info
+[1.885s] writing ../../build/jetrover_description/jetrover_description.egg-info/PKG-INFO
+[1.886s] writing dependency_links to ../../build/jetrover_description/jetrover_description.egg-info/dependency_links.txt
+[1.886s] writing entry points to ../../build/jetrover_description/jetrover_description.egg-info/entry_points.txt
+[1.886s] writing requirements to ../../build/jetrover_description/jetrover_description.egg-info/requires.txt
+[1.886s] writing top-level names to ../../build/jetrover_description/jetrover_description.egg-info/top_level.txt
+[1.888s] reading manifest file '../../build/jetrover_description/jetrover_description.egg-info/SOURCES.txt'
+[1.889s] writing manifest file '../../build/jetrover_description/jetrover_description.egg-info/SOURCES.txt'
+[1.889s] running build
+[1.889s] running build_py
+[1.889s] creating /home/mega/JetRover/sim/ros2_ws/build/jetrover_description/build
+[1.889s] creating /home/mega/JetRover/sim/ros2_ws/build/jetrover_description/build/lib
+[1.889s] creating /home/mega/JetRover/sim/ros2_ws/build/jetrover_description/build/lib/jetrover_description
+[1.890s] copying jetrover_description/__init__.py -> /home/mega/JetRover/sim/ros2_ws/build/jetrover_description/build/lib/jetrover_description
+[1.890s] running install
+[1.890s] running install_lib
+[1.891s] creating /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/lib/python3.10/site-packages/jetrover_description
+[1.892s] copying /home/mega/JetRover/sim/ros2_ws/build/jetrover_description/build/lib/jetrover_description/__init__.py -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/lib/python3.10/site-packages/jetrover_description
+[1.892s] byte-compiling /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/lib/python3.10/site-packages/jetrover_description/__init__.py to __init__.cpython-310.pyc
+[1.892s] running install_data
+[1.892s] copying resource/jetrover_description -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/ament_index/resource_index/packages
+[1.892s] copying package.xml -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description
+[1.893s] copying launch/robot_description.launch.py -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/launch
+[1.895s] copying launch/rviz.launch.py -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/launch
+[1.895s] copying launch/display.launch.py -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/launch
+[1.895s] copying urdf/lidar_g4.urdf.xacro -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/urdf
+[1.896s] copying urdf/common.urdf.xacro -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/urdf
+[1.896s] copying urdf/materials.xacro -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/urdf
+[1.896s] copying urdf/arm.urdf.xacro -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/urdf
+[1.896s] copying urdf/car_acker.urdf.xacro -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/urdf
+[1.896s] copying urdf/jetrover.xacro -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/urdf
+[1.897s] copying urdf/inertial_matrix.xacro -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/urdf
+[1.897s] copying urdf/lidar_a1.urdf.xacro -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/urdf
+[1.897s] copying urdf/depth_camera.urdf.xacro -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/urdf
+[1.897s] copying urdf/lidar.urdf.xacro -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/urdf
+[1.897s] copying urdf/car_mecanum.urdf.xacro -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/urdf
+[1.897s] copying urdf/imu.urdf.xacro -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/urdf
+[1.898s] copying urdf/car_tank.urdf.xacro -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/urdf
+[1.898s] copying urdf/connect.urdf.xacro -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/urdf
+[1.898s] copying urdf/gripper.urdf.xacro -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/urdf
+[1.898s] copying rviz/view.rviz -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/rviz
+[1.899s] copying meshes/acker/wheel_right_back_link.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/acker
+[1.902s] copying meshes/acker/wheel_right_front_link.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/acker
+[1.905s] copying meshes/acker/base_green_link.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/acker
+[1.906s] copying meshes/acker/wheel_left_back_link.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/acker
+[1.909s] copying meshes/acker/base_link.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/acker
+[1.910s] copying meshes/acker/wheel_left_front_link.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/acker
+[1.913s] copying meshes/arm/link3.STL -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/arm
+[1.914s] copying meshes/arm/servo_link2.STL -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/arm
+[1.915s] copying meshes/arm/link1.STL -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/arm
+[1.915s] copying meshes/arm/gripper_link_collision.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/arm
+[1.915s] copying meshes/arm/link2_collision.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/arm
+[1.916s] copying meshes/arm/link3_collision.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/arm
+[1.916s] copying meshes/arm/gripper_link.STL -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/arm
+[1.917s] copying meshes/arm/depth_cam_link_collision.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/arm
+[1.917s] copying meshes/arm/link5.STL -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/arm
+[1.918s] copying meshes/arm/servo_link1_collision.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/arm
+[1.918s] copying meshes/arm/servo_link1.STL -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/arm
+[1.919s] copying meshes/arm/depth_cam_link.STL -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/arm
+[1.921s] copying meshes/arm/servo_link2_collision.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/arm
+[1.921s] copying meshes/arm/link4_collision.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/arm
+[1.921s] copying meshes/arm/link2.STL -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/arm
+[1.923s] copying meshes/arm/link4.STL -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/arm
+[1.924s] copying meshes/arm/camera_connect_link.STL -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/arm
+[1.924s] copying meshes/common/back_shell_black_link.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/common
+[1.926s] copying meshes/common/back_shell_black_link_collision.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/common
+[1.926s] copying meshes/common/back_shell_green_link.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/common
+[1.928s] copying meshes/common/lidar_link.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/common
+[1.929s] copying meshes/common/imu_link.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/common
+[1.929s] copying meshes/common/back_shell_green_link_collision.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/common
+[1.929s] copying meshes/gripper/r_link.STL -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/gripper
+[1.929s] copying meshes/gripper/l_out_link.STL -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/gripper
+[1.930s] copying meshes/gripper/r_out_link.STL -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/gripper
+[1.930s] copying meshes/gripper/l_in_link.STL -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/gripper
+[1.930s] copying meshes/gripper/r_in_link.STL -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/gripper
+[1.930s] copying meshes/gripper/l_link.STL -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/gripper
+[1.931s] copying meshes/mecanum/wheel_right_back_link.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/mecanum
+[1.933s] copying meshes/mecanum/wheel_right_front_link_collision.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/mecanum
+[1.933s] copying meshes/mecanum/base_link_collision.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/mecanum
+[1.933s] copying meshes/mecanum/wheel_left_back_link_collision.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/mecanum
+[1.933s] copying meshes/mecanum/wheel_left_front_link_collision.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/mecanum
+[1.934s] copying meshes/mecanum/wheel_right_back_link_collision.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/mecanum
+[1.934s] copying meshes/mecanum/wheel_right_front_link.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/mecanum
+[1.936s] copying meshes/mecanum/wheel_left_back_link.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/mecanum
+[1.938s] copying meshes/mecanum/base_link.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/mecanum
+[1.940s] copying meshes/mecanum/wheel_left_front_link.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/mecanum
+[1.943s] copying meshes/tank/wheel_link.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/tank
+[1.961s] copying meshes/tank/base_link.stl -> /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/share/jetrover_description/meshes/tank
+[1.964s] running install_egg_info
+[1.966s] Copying ../../build/jetrover_description/jetrover_description.egg-info to /home/mega/JetRover/sim/ros2_ws/install/jetrover_description/lib/python3.10/site-packages/jetrover_description-0.0.0-py3.10.egg-info
+[1.967s] running install_scripts
+[1.985s] writing list of installed files to '/home/mega/JetRover/sim/ros2_ws/build/jetrover_description/install.log'
+[2.012s] Invoked command in '/home/mega/JetRover/sim/ros2_ws/src/jetrover_description' returned '0': PYTHONPATH=/home/mega/JetRover/sim/ros2_ws/build/jetrover_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mega/JetRover/sim/ros2_ws/install/jetrover_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/jetrover_description build --build-base /home/mega/JetRover/sim/ros2_ws/build/jetrover_description/build install --record /home/mega/JetRover/sim/ros2_ws/build/jetrover_description/install.log --single-version-externally-managed install_data --force

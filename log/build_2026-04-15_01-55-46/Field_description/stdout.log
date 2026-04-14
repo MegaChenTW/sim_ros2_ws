@@ -1,0 +1,28 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mega/JetRover/sim/ros2_ws/build/Field_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/meshes/base_link.stl
+-- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/urdf/Field.gazebo
+-- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/urdf/Field.trans
+-- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/urdf/Field.xacro
+-- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/urdf/materials.xacro
+-- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/package.xml
+-- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/ament_index/resource_index/package_run_dependencies/Field_description
+-- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/ament_index/resource_index/parent_prefix_path/Field_description
+-- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/environment/path.sh
+-- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/environment/path.dsv
+-- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/local_setup.bash
+-- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/local_setup.sh
+-- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/local_setup.zsh
+-- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/local_setup.dsv
+-- Symlinking: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/package.dsv
+-- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/ament_index/resource_index/packages/Field_description
+-- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/cmake/Field_descriptionConfig.cmake
+-- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/cmake/Field_descriptionConfig-version.cmake
+-- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/package.xml

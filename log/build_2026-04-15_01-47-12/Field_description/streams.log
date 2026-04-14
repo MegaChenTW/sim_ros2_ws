@@ -1,0 +1,27 @@
+[0.240s] Invoking command in '/home/mega/JetRover/sim/ros2_ws/build/Field_description': CMAKE_PREFIX_PATH=/home/mega/JetRover/sim/ros2_ws/install/my_custom_sim:/home/mega/JetRover/sim/ros2_ws/install/robot_gazebo:/home/mega/JetRover/sim/ros2_ws/install/jetrover_description:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/mega/JetRover/sim/ros2_ws/build/Field_description -- -j12 -l12
+[0.478s] Invoked command in '/home/mega/JetRover/sim/ros2_ws/build/Field_description' returned '0': CMAKE_PREFIX_PATH=/home/mega/JetRover/sim/ros2_ws/install/my_custom_sim:/home/mega/JetRover/sim/ros2_ws/install/robot_gazebo:/home/mega/JetRover/sim/ros2_ws/install/jetrover_description:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/mega/JetRover/sim/ros2_ws/build/Field_description -- -j12 -l12
+[0.480s] Invoking command in '/home/mega/JetRover/sim/ros2_ws/build/Field_description': CMAKE_PREFIX_PATH=/home/mega/JetRover/sim/ros2_ws/install/my_custom_sim:/home/mega/JetRover/sim/ros2_ws/install/robot_gazebo:/home/mega/JetRover/sim/ros2_ws/install/jetrover_description:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/mega/JetRover/sim/ros2_ws/build/Field_description
+[0.699s] -- Install configuration: ""
+[0.699s] -- Execute custom install script
+[0.699s] -- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/meshes/base_link.stl
+[0.699s] -- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/urdf/Field.gazebo
+[0.699s] -- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/urdf/Field.trans
+[0.699s] -- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/urdf/Field.xacro
+[0.699s] -- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/urdf/materials.xacro
+[0.699s] -- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/package.xml
+[0.699s] -- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/ament_index/resource_index/package_run_dependencies/Field_description
+[0.699s] -- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/ament_index/resource_index/parent_prefix_path/Field_description
+[0.699s] -- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/environment/ament_prefix_path.sh
+[0.699s] -- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/environment/ament_prefix_path.dsv
+[0.699s] -- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/environment/path.sh
+[0.699s] -- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/environment/path.dsv
+[0.699s] -- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/local_setup.bash
+[0.699s] -- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/local_setup.sh
+[0.700s] -- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/local_setup.zsh
+[0.700s] -- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/local_setup.dsv
+[0.700s] -- Symlinking: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/package.dsv
+[0.700s] -- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/ament_index/resource_index/packages/Field_description
+[0.700s] -- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/cmake/Field_descriptionConfig.cmake
+[0.700s] -- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/cmake/Field_descriptionConfig-version.cmake
+[0.700s] -- Up-to-date symlink: /home/mega/JetRover/sim/ros2_ws/install/Field_description/share/Field_description/package.xml
+[0.772s] Invoked command in '/home/mega/JetRover/sim/ros2_ws/build/Field_description' returned '0': CMAKE_PREFIX_PATH=/home/mega/JetRover/sim/ros2_ws/install/my_custom_sim:/home/mega/JetRover/sim/ros2_ws/install/robot_gazebo:/home/mega/JetRover/sim/ros2_ws/install/jetrover_description:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/mega/JetRover/sim/ros2_ws/build/Field_description

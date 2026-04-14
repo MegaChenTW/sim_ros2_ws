@@ -1,0 +1,4 @@
+Invoking command in '/home/mega/JetRover/sim/ros2_ws/build/block_F_description': /usr/bin/cmake --build /home/mega/JetRover/sim/ros2_ws/build/block_F_description -- -j12 -l12
+Invoked command in '/home/mega/JetRover/sim/ros2_ws/build/block_F_description' returned '0': /usr/bin/cmake --build /home/mega/JetRover/sim/ros2_ws/build/block_F_description -- -j12 -l12
+Invoking command in '/home/mega/JetRover/sim/ros2_ws/build/block_F_description': /usr/bin/cmake --install /home/mega/JetRover/sim/ros2_ws/build/block_F_description
+Invoked command in '/home/mega/JetRover/sim/ros2_ws/build/block_F_description' returned '0': /usr/bin/cmake --install /home/mega/JetRover/sim/ros2_ws/build/block_F_description

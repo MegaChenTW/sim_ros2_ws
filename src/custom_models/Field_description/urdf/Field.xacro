@@ -17,12 +17,49 @@
     </geometry>
     <material name="silver"/>
   </visual>
-  <collision>
+  <link name="base_link">
+  <visual>
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Field_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
     </geometry>
+  </visual>
+
+  <collision name="floor">
+    <origin xyz="0 0 -0.01" rpy="0 0 0"/>
+    <geometry>
+      <box size="2.6 1.5 0.02"/>
+    </geometry>
   </collision>
+
+  <collision name="wall_front">
+    <origin xyz="1.29 0 0.05" rpy="0 0 0"/>
+    <geometry>
+      <box size="0.02 1.5 0.1"/>
+    </geometry>
+  </collision>
+
+  <collision name="wall_back">
+    <origin xyz="-1.29 0 0.05" rpy="0 0 0"/>
+    <geometry>
+      <box size="0.02 1.5 0.1"/>
+    </geometry>
+  </collision>
+
+  <collision name="wall_left">
+    <origin xyz="0 0.74 0.05" rpy="0 0 0"/>
+    <geometry>
+      <box size="2.6 0.02 0.1"/>
+    </geometry>
+  </collision>
+
+  <collision name="wall_right">
+    <origin xyz="0 -0.74 0.05" rpy="0 0 0"/>
+    <geometry>
+      <box size="2.6 0.02 0.1"/>
+    </geometry>
+  </collision>
+</link>
 </link>
 
 </robot>
