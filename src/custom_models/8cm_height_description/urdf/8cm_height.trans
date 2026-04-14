@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<robot name="8cm_height" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+</robot>

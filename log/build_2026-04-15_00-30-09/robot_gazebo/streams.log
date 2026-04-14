@@ -1,0 +1,113 @@
+[1.412s] Invoking command in '/home/mega/JetRover/sim/ros2_ws/build/robot_gazebo': PYTHONPATH=/home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/build --no-deps symlink_data
+[1.642s] running develop
+[1.788s] running egg_info
+[1.788s] creating robot_gazebo.egg-info
+[1.788s] writing robot_gazebo.egg-info/PKG-INFO
+[1.788s] writing dependency_links to robot_gazebo.egg-info/dependency_links.txt
+[1.788s] writing entry points to robot_gazebo.egg-info/entry_points.txt
+[1.789s] writing requirements to robot_gazebo.egg-info/requires.txt
+[1.789s] writing top-level names to robot_gazebo.egg-info/top_level.txt
+[1.789s] writing manifest file 'robot_gazebo.egg-info/SOURCES.txt'
+[1.791s] reading manifest file 'robot_gazebo.egg-info/SOURCES.txt'
+[1.792s] writing manifest file 'robot_gazebo.egg-info/SOURCES.txt'
+[1.796s] running build_ext
+[1.796s] Creating /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages/robot-gazebo.egg-link (link to .)
+[1.796s] Installing teleop_key_control script to /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/lib/robot_gazebo
+[1.796s] 
+[1.796s] Installed /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo
+[1.796s] running symlink_data
+[1.796s] creating /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/ament_index
+[1.796s] creating /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/ament_index/resource_index
+[1.796s] creating /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/ament_index/resource_index/packages
+[1.796s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/resource/robot_gazebo -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/ament_index/resource_index/packages
+[1.796s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/package.xml -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo
+[1.797s] creating /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[1.797s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/launch/spawn_model.launch.py -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[1.797s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/launch/worlds.launch.py -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[1.797s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/launch/room_worlds.launch.py -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[1.797s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/launch/spawn_objects.launch.py -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[1.797s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/launch/ros_ign_bridge.launch.py -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch
+[1.797s] creating /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+[1.797s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/urdf/lidar.gazebo.xacro -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+[1.797s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/urdf/camera.gazebo.xacro -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+[1.797s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/urdf/jetrover.gazebo.xacro -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+[1.797s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/urdf/wheel_base.urdf.xacro -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+[1.797s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/urdf/robot.gazebo.xacro -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+[1.797s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/urdf/imu.gazebo.xacro -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/urdf
+[1.797s] creating /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+[1.798s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/config/nav2_params.yaml -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+[1.798s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/config/slam.yaml -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+[1.798s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/config/nav2_controller_teb.yaml -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+[1.798s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/config/localization.yaml -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+[1.798s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/config/nav2_controller_dwb.yaml -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+[1.798s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/config/robot_config.yaml -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/config
+[1.798s] creating /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds
+[1.799s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/worlds/empty.sdf -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds
+[1.799s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/worlds/robocup_home.sdf -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/worlds
+[1.799s] creating /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/rviz
+[1.799s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/rviz/nav_nav2.rviz -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/rviz
+[1.799s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/rviz/slam.rviz -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/rviz
+[1.799s] creating /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/maps
+[1.800s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/maps/map_01.yaml -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/maps
+[1.800s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/maps/map_01.pgm -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/maps
+[1.800s] creating /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch/include
+[1.800s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/launch/include/slam.launch.py -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch/include
+[1.800s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/launch/include/navigation.launch.py -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch/include
+[1.801s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/launch/include/localization.launch.py -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/launch/include
+[1.801s] creating /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+[1.801s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/meshes/tea_table.dae -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+[1.801s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/meshes/sofa.dae -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+[1.801s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/meshes/bookshelft.dae -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+[1.801s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/meshes/bed.dae -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+[1.801s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/meshes/chair.dae -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+[1.801s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/meshes/bottle.stl -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+[1.801s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/meshes/cupboard.dae -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+[1.802s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/meshes/table.dae -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes
+[1.802s] creating /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/bed
+[1.802s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/meshes/bed/Carpet_Pattern_Squares_Multi.jpg -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/bed
+[1.802s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/meshes/bed/Wood_Bamboo.jpg -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/bed
+[1.802s] creating /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/bookshelft
+[1.802s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/meshes/bookshelft/Wood_Veneer_02.jpg -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/bookshelft
+[1.802s] creating /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/chair
+[1.802s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/meshes/chair/Wood_Cherry_Original.jpg -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/chair
+[1.802s] creating /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/cupboard
+[1.802s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/meshes/cupboard/Wood_Veneer_02.jpg -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/cupboard
+[1.802s] creating /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/sofa
+[1.802s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/meshes/sofa/Carpet_Loop_Pattern.jpg -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/sofa
+[1.802s] creating /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/table
+[1.802s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/meshes/tea_table/Wood_Cherry_Original.jpg -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/table
+[1.802s] creating /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/tea_table
+[1.802s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/meshes/tea_table/Wood_Cherry_Original.jpg -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/tea_table
+[1.802s] creating /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[1.803s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/meshes/wpr1/forearm.dae -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[1.803s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/meshes/wpr1/palm.dae -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[1.803s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/meshes/wpr1/upperarm.dae -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[1.803s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/meshes/wpr1/base.dae -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[1.803s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/meshes/wpr1/fingertip.dae -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[1.803s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/meshes/wpr1/torso.dae -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[1.803s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/meshes/wpr1/finger.dae -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+[1.803s] creating /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/models
+[1.803s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/models/sofa.model -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/models
+[1.803s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/models/bed.model -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/models
+[1.803s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/models/kai_standing.model -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/models
+[1.803s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/models/tea_table.model -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/models
+[1.803s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/models/bookshelft.model -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/models
+[1.803s] creating /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/bed
+[1.803s] creating /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/bottles
+[1.803s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/models/bottles/green_bottle.model -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/bottles
+[1.803s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/models/bottles/red_bottle.model -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/bottles
+[1.803s] creating /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/cupboard
+[1.803s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/models/cupboard/cupboard_0.model -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/cupboard
+[1.804s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/models/cupboard/cupboard_1.model -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/cupboard
+[1.804s] creating /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table
+[1.804s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/models/table/dinning_table_1.model -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table
+[1.804s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/models/table/dinning_table_3.model -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table
+[1.804s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/models/table/dinning_table_0.model -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table
+[1.804s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/models/table/kitchen_table.model -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table
+[1.804s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/models/table/dinning_table_2.model -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/table
+[1.804s] creating /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/chair
+[1.804s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/models/chair/chair_3.model -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/chair
+[1.804s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/models/chair/chair_1.model -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/chair
+[1.805s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/models/chair/chair_2.model -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/chair
+[1.805s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/models/chair/chair_0.model -> /home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/share/robot_gazebo/models/chair
+[1.848s] Invoked command in '/home/mega/JetRover/sim/ros2_ws/build/robot_gazebo' returned '0': PYTHONPATH=/home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mega/JetRover/sim/ros2_ws/install/robot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/build --no-deps symlink_data

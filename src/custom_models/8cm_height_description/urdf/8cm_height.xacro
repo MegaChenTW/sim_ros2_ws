@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<robot name="8cm_height" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find 8cm_height_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find 8cm_height_description)/urdf/8cm_height.trans" />
+<xacro:include filename="$(find 8cm_height_description)/urdf/8cm_height.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.105 0.14849999999999997 0.04" rpy="0 0 0"/>
+    <mass value="39.16835999999999"/>
+    <inertia ixx="0.308807" iyy="0.164834" izz="0.431861" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://8cm_height_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://8cm_height_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+</robot>

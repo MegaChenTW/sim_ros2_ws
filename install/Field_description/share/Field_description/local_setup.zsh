@@ -1,0 +1,1 @@
+/home/mega/JetRover/sim/ros2_ws/build/Field_description/ament_cmake_environment_hooks/local_setup.zsh

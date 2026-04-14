@@ -1,0 +1,1 @@
+/home/mega/JetRover/sim/ros2_ws/src/hiwonder_moveit_config/launch/setup_assistant.launch.py

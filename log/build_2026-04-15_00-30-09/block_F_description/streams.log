@@ -1,0 +1,55 @@
+[0.215s] Invoking command in '/home/mega/JetRover/sim/ros2_ws/build/block_F_description': /usr/bin/cmake /home/mega/JetRover/sim/ros2_ws/src/custom_models/block_F_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/mega/JetRover/sim/ros2_ws/install/block_F_description
+[0.577s] -- The C compiler identification is GNU 11.4.0
+[0.577s] -- The CXX compiler identification is GNU 11.4.0
+[0.577s] -- Detecting C compiler ABI info
+[0.577s] -- Detecting C compiler ABI info - done
+[0.577s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.578s] -- Detecting C compile features
+[0.578s] -- Detecting C compile features - done
+[0.578s] -- Detecting CXX compiler ABI info
+[0.578s] -- Detecting CXX compiler ABI info - done
+[0.578s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.578s] -- Detecting CXX compile features
+[0.578s] -- Detecting CXX compile features - done
+[0.581s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.766s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.001s] WARNING: Package name "block_F_description" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[1.031s] -- Configuring done
+[1.037s] -- Generating done
+[1.038s] [33mCMake Warning:
+[1.039s]   Manually-specified variables were not used by the project:
+[1.039s] 
+[1.039s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[1.039s]     CATKIN_SYMLINK_INSTALL
+[1.039s] 
+[1.039s] [0m
+[1.041s] -- Build files have been written to: /home/mega/JetRover/sim/ros2_ws/build/block_F_description
+[1.052s] Invoked command in '/home/mega/JetRover/sim/ros2_ws/build/block_F_description' returned '0': /usr/bin/cmake /home/mega/JetRover/sim/ros2_ws/src/custom_models/block_F_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/mega/JetRover/sim/ros2_ws/install/block_F_description
+[1.057s] Invoking command in '/home/mega/JetRover/sim/ros2_ws/build/block_F_description': /usr/bin/cmake --build /home/mega/JetRover/sim/ros2_ws/build/block_F_description -- -j12 -l12
+[1.125s] Invoked command in '/home/mega/JetRover/sim/ros2_ws/build/block_F_description' returned '0': /usr/bin/cmake --build /home/mega/JetRover/sim/ros2_ws/build/block_F_description -- -j12 -l12
+[1.141s] Invoking command in '/home/mega/JetRover/sim/ros2_ws/build/block_F_description': /usr/bin/cmake --install /home/mega/JetRover/sim/ros2_ws/build/block_F_description
+[1.153s] -- Install configuration: ""
+[1.154s] -- Installing: /home/mega/JetRover/sim/ros2_ws/install/block_F_description/share/block_F_description/meshes
+[1.154s] -- Installing: /home/mega/JetRover/sim/ros2_ws/install/block_F_description/share/block_F_description/meshes/base_link.stl
+[1.154s] -- Installing: /home/mega/JetRover/sim/ros2_ws/install/block_F_description/share/block_F_description/urdf
+[1.154s] -- Installing: /home/mega/JetRover/sim/ros2_ws/install/block_F_description/share/block_F_description/urdf/block_F.gazebo
+[1.155s] -- Installing: /home/mega/JetRover/sim/ros2_ws/install/block_F_description/share/block_F_description/urdf/materials.xacro
+[1.155s] -- Installing: /home/mega/JetRover/sim/ros2_ws/install/block_F_description/share/block_F_description/urdf/block_F.xacro
+[1.155s] -- Installing: /home/mega/JetRover/sim/ros2_ws/install/block_F_description/share/block_F_description/urdf/block_F.trans
+[1.155s] -- Installing: /home/mega/JetRover/sim/ros2_ws/install/block_F_description/share/block_F_description/package.xml
+[1.156s] -- Installing: /home/mega/JetRover/sim/ros2_ws/install/block_F_description/share/ament_index/resource_index/package_run_dependencies/block_F_description
+[1.156s] -- Installing: /home/mega/JetRover/sim/ros2_ws/install/block_F_description/share/ament_index/resource_index/parent_prefix_path/block_F_description
+[1.156s] -- Installing: /home/mega/JetRover/sim/ros2_ws/install/block_F_description/share/block_F_description/environment/ament_prefix_path.sh
+[1.156s] -- Installing: /home/mega/JetRover/sim/ros2_ws/install/block_F_description/share/block_F_description/environment/ament_prefix_path.dsv
+[1.156s] -- Installing: /home/mega/JetRover/sim/ros2_ws/install/block_F_description/share/block_F_description/environment/path.sh
+[1.156s] -- Installing: /home/mega/JetRover/sim/ros2_ws/install/block_F_description/share/block_F_description/environment/path.dsv
+[1.157s] -- Installing: /home/mega/JetRover/sim/ros2_ws/install/block_F_description/share/block_F_description/local_setup.bash
+[1.157s] -- Installing: /home/mega/JetRover/sim/ros2_ws/install/block_F_description/share/block_F_description/local_setup.sh
+[1.157s] -- Installing: /home/mega/JetRover/sim/ros2_ws/install/block_F_description/share/block_F_description/local_setup.zsh
+[1.157s] -- Installing: /home/mega/JetRover/sim/ros2_ws/install/block_F_description/share/block_F_description/local_setup.dsv
+[1.157s] -- Installing: /home/mega/JetRover/sim/ros2_ws/install/block_F_description/share/block_F_description/package.dsv
+[1.157s] -- Installing: /home/mega/JetRover/sim/ros2_ws/install/block_F_description/share/ament_index/resource_index/packages/block_F_description
+[1.157s] -- Installing: /home/mega/JetRover/sim/ros2_ws/install/block_F_description/share/block_F_description/cmake/block_F_descriptionConfig.cmake
+[1.158s] -- Installing: /home/mega/JetRover/sim/ros2_ws/install/block_F_description/share/block_F_description/cmake/block_F_descriptionConfig-version.cmake
+[1.158s] -- Up-to-date: /home/mega/JetRover/sim/ros2_ws/install/block_F_description/share/block_F_description/package.xml
+[1.173s] Invoked command in '/home/mega/JetRover/sim/ros2_ws/build/block_F_description' returned '0': /usr/bin/cmake --install /home/mega/JetRover/sim/ros2_ws/build/block_F_description

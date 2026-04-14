@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+launch/start_my_sim.launch.py
+my_custom_sim/__init__.py
+my_custom_sim.egg-info/PKG-INFO
+my_custom_sim.egg-info/SOURCES.txt
+my_custom_sim.egg-info/dependency_links.txt
+my_custom_sim.egg-info/entry_points.txt
+my_custom_sim.egg-info/requires.txt
+my_custom_sim.egg-info/top_level.txt
+my_custom_sim.egg-info/zip-safe
+resource/my_custom_sim
+worlds/empty_light.world

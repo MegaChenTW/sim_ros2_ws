@@ -1,0 +1,9 @@
+source;share/jetrover_description/hook/pythonpath.ps1
+source;share/jetrover_description/hook/pythonpath.dsv
+source;share/jetrover_description/hook/pythonpath.sh
+source;share/jetrover_description/hook/ament_prefix_path.ps1
+source;share/jetrover_description/hook/ament_prefix_path.dsv
+source;share/jetrover_description/hook/ament_prefix_path.sh
+source;../../build/jetrover_description/share/jetrover_description/hook/pythonpath_develop.ps1
+source;../../build/jetrover_description/share/jetrover_description/hook/pythonpath_develop.dsv
+source;../../build/jetrover_description/share/jetrover_description/hook/pythonpath_develop.sh

@@ -1,0 +1,27 @@
+[1.418s] Invoking command in '/home/mega/JetRover/sim/ros2_ws/build/my_custom_sim': PYTHONPATH=/home/mega/JetRover/sim/ros2_ws/build/my_custom_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mega/JetRover/sim/ros2_ws/install/my_custom_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mega/JetRover/sim/ros2_ws/build/my_custom_sim/build --no-deps symlink_data
+[1.647s] running develop
+[1.792s] running egg_info
+[1.792s] creating my_custom_sim.egg-info
+[1.793s] writing my_custom_sim.egg-info/PKG-INFO
+[1.793s] writing dependency_links to my_custom_sim.egg-info/dependency_links.txt
+[1.793s] writing entry points to my_custom_sim.egg-info/entry_points.txt
+[1.793s] writing requirements to my_custom_sim.egg-info/requires.txt
+[1.793s] writing top-level names to my_custom_sim.egg-info/top_level.txt
+[1.793s] writing manifest file 'my_custom_sim.egg-info/SOURCES.txt'
+[1.795s] reading manifest file 'my_custom_sim.egg-info/SOURCES.txt'
+[1.795s] writing manifest file 'my_custom_sim.egg-info/SOURCES.txt'
+[1.797s] running build_ext
+[1.797s] Creating /home/mega/JetRover/sim/ros2_ws/install/my_custom_sim/lib/python3.10/site-packages/my-custom-sim.egg-link (link to .)
+[1.799s] 
+[1.799s] Installed /home/mega/JetRover/sim/ros2_ws/build/my_custom_sim
+[1.799s] running symlink_data
+[1.799s] creating /home/mega/JetRover/sim/ros2_ws/install/my_custom_sim/share/ament_index
+[1.799s] creating /home/mega/JetRover/sim/ros2_ws/install/my_custom_sim/share/ament_index/resource_index
+[1.800s] creating /home/mega/JetRover/sim/ros2_ws/install/my_custom_sim/share/ament_index/resource_index/packages
+[1.800s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/my_custom_sim/resource/my_custom_sim -> /home/mega/JetRover/sim/ros2_ws/install/my_custom_sim/share/ament_index/resource_index/packages
+[1.800s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/my_custom_sim/package.xml -> /home/mega/JetRover/sim/ros2_ws/install/my_custom_sim/share/my_custom_sim
+[1.800s] creating /home/mega/JetRover/sim/ros2_ws/install/my_custom_sim/share/my_custom_sim/launch
+[1.800s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/my_custom_sim/launch/start_my_sim.launch.py -> /home/mega/JetRover/sim/ros2_ws/install/my_custom_sim/share/my_custom_sim/launch
+[1.800s] creating /home/mega/JetRover/sim/ros2_ws/install/my_custom_sim/share/my_custom_sim/worlds
+[1.800s] symbolically linking /home/mega/JetRover/sim/ros2_ws/build/my_custom_sim/worlds/empty_light.world -> /home/mega/JetRover/sim/ros2_ws/install/my_custom_sim/share/my_custom_sim/worlds
+[1.845s] Invoked command in '/home/mega/JetRover/sim/ros2_ws/build/my_custom_sim' returned '0': PYTHONPATH=/home/mega/JetRover/sim/ros2_ws/build/my_custom_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mega/JetRover/sim/ros2_ws/install/my_custom_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mega/JetRover/sim/ros2_ws/build/my_custom_sim/build --no-deps symlink_data

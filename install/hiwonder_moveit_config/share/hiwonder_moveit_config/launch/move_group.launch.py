@@ -1,0 +1,1 @@
+/home/mega/JetRover/sim/ros2_ws/src/hiwonder_moveit_config/launch/move_group.launch.py

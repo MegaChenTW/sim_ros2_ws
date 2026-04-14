@@ -1,0 +1,4 @@
+source;share/8cm_height_description/local_setup.bash
+source;share/8cm_height_description/local_setup.dsv
+source;share/8cm_height_description/local_setup.sh
+source;share/8cm_height_description/local_setup.zsh

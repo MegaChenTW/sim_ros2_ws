@@ -1,0 +1,49 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+WARNING: Package name "4cm_height_description" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+-- Configuring done
+-- Generating done
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+    CATKIN_SYMLINK_INSTALL
+
+[0m
+-- Build files have been written to: /home/mega/JetRover/sim/ros2_ws/build/4cm_height_description
+-- Install configuration: ""
+-- Installing: /home/mega/JetRover/sim/ros2_ws/install/4cm_height_description/share/4cm_height_description/meshes
+-- Installing: /home/mega/JetRover/sim/ros2_ws/install/4cm_height_description/share/4cm_height_description/meshes/base_link.stl
+-- Installing: /home/mega/JetRover/sim/ros2_ws/install/4cm_height_description/share/4cm_height_description/urdf
+-- Installing: /home/mega/JetRover/sim/ros2_ws/install/4cm_height_description/share/4cm_height_description/urdf/materials.xacro
+-- Installing: /home/mega/JetRover/sim/ros2_ws/install/4cm_height_description/share/4cm_height_description/urdf/4cm_height.gazebo
+-- Installing: /home/mega/JetRover/sim/ros2_ws/install/4cm_height_description/share/4cm_height_description/urdf/4cm_height.trans
+-- Installing: /home/mega/JetRover/sim/ros2_ws/install/4cm_height_description/share/4cm_height_description/urdf/4cm_height.xacro
+-- Installing: /home/mega/JetRover/sim/ros2_ws/install/4cm_height_description/share/4cm_height_description/package.xml
+-- Installing: /home/mega/JetRover/sim/ros2_ws/install/4cm_height_description/share/ament_index/resource_index/package_run_dependencies/4cm_height_description
+-- Installing: /home/mega/JetRover/sim/ros2_ws/install/4cm_height_description/share/ament_index/resource_index/parent_prefix_path/4cm_height_description
+-- Installing: /home/mega/JetRover/sim/ros2_ws/install/4cm_height_description/share/4cm_height_description/environment/ament_prefix_path.sh
+-- Installing: /home/mega/JetRover/sim/ros2_ws/install/4cm_height_description/share/4cm_height_description/environment/ament_prefix_path.dsv
+-- Installing: /home/mega/JetRover/sim/ros2_ws/install/4cm_height_description/share/4cm_height_description/environment/path.sh
+-- Installing: /home/mega/JetRover/sim/ros2_ws/install/4cm_height_description/share/4cm_height_description/environment/path.dsv
+-- Installing: /home/mega/JetRover/sim/ros2_ws/install/4cm_height_description/share/4cm_height_description/local_setup.bash
+-- Installing: /home/mega/JetRover/sim/ros2_ws/install/4cm_height_description/share/4cm_height_description/local_setup.sh
+-- Installing: /home/mega/JetRover/sim/ros2_ws/install/4cm_height_description/share/4cm_height_description/local_setup.zsh
+-- Installing: /home/mega/JetRover/sim/ros2_ws/install/4cm_height_description/share/4cm_height_description/local_setup.dsv
+-- Installing: /home/mega/JetRover/sim/ros2_ws/install/4cm_height_description/share/4cm_height_description/package.dsv
+-- Installing: /home/mega/JetRover/sim/ros2_ws/install/4cm_height_description/share/ament_index/resource_index/packages/4cm_height_description
+-- Installing: /home/mega/JetRover/sim/ros2_ws/install/4cm_height_description/share/4cm_height_description/cmake/4cm_height_descriptionConfig.cmake
+-- Installing: /home/mega/JetRover/sim/ros2_ws/install/4cm_height_description/share/4cm_height_description/cmake/4cm_height_descriptionConfig-version.cmake
+-- Up-to-date: /home/mega/JetRover/sim/ros2_ws/install/4cm_height_description/share/4cm_height_description/package.xml
