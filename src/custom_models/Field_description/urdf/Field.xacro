@@ -4,6 +4,10 @@
 <xacro:include filename="$(find Field_description)/urdf/materials.xacro" />
 <xacro:include filename="$(find Field_description)/urdf/Field.trans" />
 <xacro:include filename="$(find Field_description)/urdf/Field.gazebo" />
+
+<gazebo>
+    <static>true</static>
+  </gazebo>
 <link name="base_link">
   <inertial>
     <origin xyz="1.3 0.745 0.11104375991538867" rpy="0 0 0"/>

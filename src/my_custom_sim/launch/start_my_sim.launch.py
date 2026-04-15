@@ -45,7 +45,7 @@ def generate_launch_description():
             '-string', field_urdf_xml,  # 直接傳入轉換好的 XML 字串
             '-x', '0.0', 
             '-y', '0.0', 
-            '-z', '1.0'
+            '-z', '0.0'
         ],
         output='screen'
     )

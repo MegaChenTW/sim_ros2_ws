@@ -111,8 +111,8 @@ def launch_setup(context):
         description='log level')
 
     declare_controller_server_params_file_cmd = DeclareLaunchArgument(
-        'controller_server_file',
-        default_value=os.path.join(robot_gazebo_dir, 'config', 'nav2_controller_teb.yaml'),
+        'controller_server_file',                               #MEGA MOD: change to dwb
+        default_value=os.path.join(robot_gazebo_dir, 'config', 'nav2_controller_dwb.yaml'),
         description='navigation controller service file')
     map_arg = DeclareLaunchArgument(
         'map',
