@@ -1,1 +1,0 @@
-/home/mega/JetRover/sim/ros2_ws/src/hiwonder_moveit_config/launch/moveit_rviz.launch.py

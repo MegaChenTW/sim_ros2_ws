@@ -1,6 +1,0 @@
-Invoking command in '/home/mega/JetRover/sim/ros2_ws/build/block_I_description': /usr/bin/cmake /home/mega/JetRover/sim/ros2_ws/src/custom_models/block_I_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/mega/JetRover/sim/ros2_ws/install/block_I_description
-Invoked command in '/home/mega/JetRover/sim/ros2_ws/build/block_I_description' returned '0': /usr/bin/cmake /home/mega/JetRover/sim/ros2_ws/src/custom_models/block_I_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/mega/JetRover/sim/ros2_ws/install/block_I_description
-Invoking command in '/home/mega/JetRover/sim/ros2_ws/build/block_I_description': /usr/bin/cmake --build /home/mega/JetRover/sim/ros2_ws/build/block_I_description -- -j12 -l12
-Invoked command in '/home/mega/JetRover/sim/ros2_ws/build/block_I_description' returned '0': /usr/bin/cmake --build /home/mega/JetRover/sim/ros2_ws/build/block_I_description -- -j12 -l12
-Invoking command in '/home/mega/JetRover/sim/ros2_ws/build/block_I_description': /usr/bin/cmake --install /home/mega/JetRover/sim/ros2_ws/build/block_I_description
-Invoked command in '/home/mega/JetRover/sim/ros2_ws/build/block_I_description' returned '0': /usr/bin/cmake --install /home/mega/JetRover/sim/ros2_ws/build/block_I_description

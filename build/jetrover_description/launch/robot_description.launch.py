@@ -1,1 +1,0 @@
-/home/mega/JetRover/sim/ros2_ws/src/jetrover_description/launch/robot_description.launch.py

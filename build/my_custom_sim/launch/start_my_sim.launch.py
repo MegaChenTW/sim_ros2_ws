@@ -1,1 +1,0 @@
-/home/mega/JetRover/sim/ros2_ws/src/my_custom_sim/launch/start_my_sim.launch.py

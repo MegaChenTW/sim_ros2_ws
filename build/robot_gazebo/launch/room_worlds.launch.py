@@ -1,1 +1,0 @@
-/home/mega/JetRover/sim/ros2_ws/src/robot_gazebo/launch/room_worlds.launch.py

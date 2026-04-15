@@ -1,1 +1,0 @@
-/home/mega/JetRover/sim/ros2_ws/build/robot_gazebo/launch/include/navigation.launch.py
