@@ -54,7 +54,9 @@ def launch_setup(context):
                        'behavior_server',
                        'bt_navigator',
                        'waypoint_follower',
-                       'velocity_smoother']
+                       'velocity_smoother',
+                       'filter_mask_server',          # <--- 新增這行
+                       'costmap_filter_info_server']
 
     remappings = [('/tf', 'tf'),
                   ('/tf_static', 'tf_static')]
@@ -201,6 +203,27 @@ def launch_setup(context):
                 arguments=['--ros-args', '--log-level', log_level],
                 remappings=remappings +
                         [('cmd_vel', 'cmd_vel_nav'), ('cmd_vel_smoothed', 'cmd_vel')]),
+            # Mega mod
+            Node(
+                package='nav2_map_server',
+                executable='map_server',
+                name='filter_mask_server',
+                output='screen',
+                respawn=use_respawn,
+                respawn_delay=2.0,
+                parameters=[configured_params, {'yaml_filename': os.path.join(robot_gazebo_dir, 'maps', 'RobotSot_keepout.yaml')}],
+                arguments=['--ros-args', '--log-level', log_level],
+                remappings=remappings),
+            Node(
+                package='nav2_map_server',
+                executable='costmap_filter_info_server',
+                name='costmap_filter_info_server',
+                output='screen',
+                respawn=use_respawn,
+                respawn_delay=2.0,
+                parameters=[configured_params],
+                arguments=['--ros-args', '--log-level', log_level],
+                remappings=remappings),
             Node(
                 package='nav2_lifecycle_manager',
                 executable='lifecycle_manager',
@@ -260,6 +283,19 @@ def launch_setup(context):
                 parameters=[configured_params],
                 remappings=remappings +
                            [('cmd_vel', 'cmd_vel_nav'), ('cmd_vel_smoothed', 'cmd_vel')]),
+            # Mega mod
+            ComposableNode(
+                package='nav2_map_server',
+                plugin='nav2_map_server::MapServer',
+                name='filter_mask_server',
+                parameters=[configured_params, {'yaml_filename': os.path.join(robot_gazebo_dir, 'maps', 'RobotSot_keepout.yaml')}],
+                remappings=remappings),
+            ComposableNode(
+                package='nav2_map_server',
+                plugin='nav2_map_server::CostmapFilterInfoServer',
+                name='costmap_filter_info_server',
+                parameters=[configured_params],
+                remappings=remappings),
             ComposableNode(
                 package='nav2_lifecycle_manager',
                 plugin='nav2_lifecycle_manager::LifecycleManager',

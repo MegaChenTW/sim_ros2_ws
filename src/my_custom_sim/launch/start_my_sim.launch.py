@@ -6,6 +6,8 @@ from launch.actions import IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.actions import Node
 
+#offset_y = 630 + 380/2 = 820
+#offset_x = 200 (guessed)
 def generate_launch_description():
     robot_gazebo_dir = get_package_share_directory('robot_gazebo')
     field_dir = get_package_share_directory('Field_description')
@@ -26,7 +28,8 @@ def generate_launch_description():
             os.path.join(robot_gazebo_dir, 'launch', 'worlds.launch.py')
         ),
         launch_arguments={
-            'moveit_unite': 'true'
+            #'moveit_unite': 'true',
+            'nav' : 'true',
         }.items()
     )
 
@@ -43,8 +46,8 @@ def generate_launch_description():
         arguments=[
             '-name', 'my_field',
             '-string', field_urdf_xml,  # 直接傳入轉換好的 XML 字串
-            '-x', '0.0', 
-            '-y', '0.0', 
+            '-x', '-1.70', 
+            '-y', '-1.27', 
             '-z', '0.0'
         ],
         output='screen'
