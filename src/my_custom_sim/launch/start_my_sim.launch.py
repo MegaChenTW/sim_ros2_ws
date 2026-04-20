@@ -46,9 +46,10 @@ def generate_launch_description():
         arguments=[
             '-name', 'my_field',
             '-string', field_urdf_xml,  # 直接傳入轉換好的 XML 字串
-            '-x', '-1.70', 
-            '-y', '-1.27', 
-            '-z', '0.0'
+            '-x', '1.28', 
+            '-y', '-1.72', 
+            '-z', '0.0',
+            '-Y', '1.5708'  # 90度，讓場地面向正確方向
         ],
         output='screen'
     )

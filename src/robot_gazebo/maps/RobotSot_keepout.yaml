@@ -1,7 +1,7 @@
 image: RobotSot_keepout.png
-mode: trinary
+mode: scale
 resolution: 0.01
-origin: [-1.70, -1.27, 0.0]  # 必須與你原本的 RobotSot.yaml 一模一樣
+origin: [-0.21, -1.72, 0.0]  # 必須與你原本的 RobotSot.yaml 一模一樣
 occupied_thresh: 0.65
 free_thresh: 0.25
 negate: 0

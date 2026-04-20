@@ -30,6 +30,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'task_node = my_custom_sim.task_node:main',
+            'dummy_node = my_custom_sim.dummy_node:main',
         ],
     },
 )
